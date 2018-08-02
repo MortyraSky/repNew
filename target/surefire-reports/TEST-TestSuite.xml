@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.062" tests="4" errors="0" skipped="0" failures="4">
+<testsuite name="TestSuite" time="114.18" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_162\jre\bin"/>
     <property name="java.vm.version" value="25.162-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\gitRep\ponyal\AutotestsRep\YaMarketTests"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\gitRep\NewRep\tets"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\gitRep\ponyal\AutotestsRep\YaMarketTests"/>
+    <property name="user.dir" value="D:\gitRep\NewRep\tets"/>
     <property name="java.runtime.version" value="1.8.0_162-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_162\jre\lib\endorsed"/>
@@ -61,37 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="marketTest1" classname="test.java.com.MortyraSky.tests.MainTest" time="0.031">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at test.java.com.MortyraSky.pages.MarketPage.navigate(MarketPage.java:112)
-	at test.java.com.MortyraSky.tests.MainTest.marketTest1(MainTest.java:39)
-</failure>
-  </testcase>
-  <testcase name="marketTest2" classname="test.java.com.MortyraSky.tests.MainTest" time="0">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getAttribute(Unknown Source)
-	at test.java.com.MortyraSky.pages.MarketSortPage.getAttributeElement(MarketSortPage.java:73)
-	at test.java.com.MortyraSky.pages.MarketSortPage.sortByPrice(MarketSortPage.java:43)
-	at test.java.com.MortyraSky.tests.MainTest.marketTest2(MainTest.java:55)
-</failure>
-  </testcase>
-  <testcase name="marketTest3" classname="test.java.com.MortyraSky.tests.MainTest" time="0.031">
-    <failure type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
-	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:68)
-	at test.java.com.MortyraSky.pages.MarketComparePage.getItemsToCompare(MarketComparePage.java:56)
-	at test.java.com.MortyraSky.tests.MainTest.marketTest3(MainTest.java:68)
-]]></failure>
-  </testcase>
-  <testcase name="marketTest4" classname="test.java.com.MortyraSky.tests.MainTest" time="0">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getText(Unknown Source)
-	at test.java.com.MortyraSky.pages.YaMainPage.goToYa(YaMainPage.java:39)
-	at test.java.com.MortyraSky.tests.MainTest.marketTest4(MainTest.java:82)
-</failure>
-  </testcase>
+  <testcase name="marketTest1" classname="test.java.com.MortyraSky.tests.MainTest" time="31.188"/>
+  <testcase name="marketTest2" classname="test.java.com.MortyraSky.tests.MainTest" time="4.276"/>
+  <testcase name="marketTest3" classname="test.java.com.MortyraSky.tests.MainTest" time="15.863"/>
+  <testcase name="marketTest4" classname="test.java.com.MortyraSky.tests.MainTest" time="62.853"/>
 </testsuite>

@@ -1,22 +1,22 @@
 <suite name="Group of group Suite" verbose="1">
     <test name="Group of group Test">
-        <groups>
-            <!--<define name="include-group">
+        <!--<groups>
+            <define name="include-group">
                 <include name="include-test-one"></include>
                 <include name="include-test-two"></include>
                 <include name="include-test-three"></include>
                 <include name="include-test-four"></include>
-            </define>-->
+            </define>
             <run>
                 <include name="include-test-one"></include>
                 <include name="include-test-two"></include>
                 <include name="include-test-three"></include>
                 <include name="include-test-four"></include>
-                <!--<include name="include-group"></include>  "include-test-one" -->
-                <!--<include name="exclude-group"></include>-->
-                <!-- package com.studyingarticles.parallelism;-->
+                <include name="include-group"></include>  "include-test-one"
+                <include name="exclude-group"></include>
+                package com.studyingarticles.parallelism;
             </run>
-        </groups>
+        </groups>-->
         <classes>
             <class name="test.java.com.MortyraSky.tests.MainTest"></class>
         </classes>
