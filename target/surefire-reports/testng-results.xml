@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Group of group Suite" duration-ms="134445" started-at="2018-08-02T09:24:07Z" finished-at="2018-08-02T09:26:22Z">
+  <suite name="Group of group Suite" duration-ms="119854" started-at="2018-08-02T10:39:50Z" finished-at="2018-08-02T10:41:50Z">
     <groups>
       <group name="include-test-one">
         <method signature="MainTest.marketTest1()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest1" class="test.java.com.MortyraSky.tests.MainTest"/>
@@ -17,29 +17,29 @@
         <method signature="MainTest.marketTest4()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest4" class="test.java.com.MortyraSky.tests.MainTest"/>
       </group> <!-- include-test-four -->
     </groups>
-    <test name="Group of group Test" duration-ms="134445" started-at="2018-08-02T09:24:07Z" finished-at="2018-08-02T09:26:22Z">
+    <test name="Group of group Test" duration-ms="119854" started-at="2018-08-02T10:39:50Z" finished-at="2018-08-02T10:41:50Z">
       <class name="test.java.com.MortyraSky.tests.MainTest">
-        <test-method status="PASS" signature="setDriver()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="setDriver" is-config="true" duration-ms="18297" started-at="2018-08-02T09:24:07Z" finished-at="2018-08-02T09:24:26Z">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="setDriver" is-config="true" duration-ms="11486" started-at="2018-08-02T10:39:50Z" finished-at="2018-08-02T10:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="marketTest1()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest1" duration-ms="31188" started-at="2018-08-02T09:24:26Z" finished-at="2018-08-02T09:24:57Z">
+        <test-method status="PASS" signature="marketTest1()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest1" duration-ms="31342" started-at="2018-08-02T10:40:02Z" finished-at="2018-08-02T10:40:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marketTest1 -->
-        <test-method status="PASS" signature="marketTest2()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest2" duration-ms="4276" started-at="2018-08-02T09:24:57Z" finished-at="2018-08-02T09:25:01Z">
+        <test-method status="PASS" signature="marketTest2()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest2" duration-ms="4018" started-at="2018-08-02T10:40:33Z" finished-at="2018-08-02T10:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marketTest2 -->
-        <test-method status="PASS" signature="marketTest3()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest3" duration-ms="15863" started-at="2018-08-02T09:25:01Z" finished-at="2018-08-02T09:25:17Z">
+        <test-method status="PASS" signature="marketTest3()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest3" duration-ms="12331" started-at="2018-08-02T10:40:37Z" finished-at="2018-08-02T10:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marketTest3 -->
-        <test-method status="PASS" signature="marketTest4()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest4" duration-ms="62853" started-at="2018-08-02T09:25:17Z" finished-at="2018-08-02T09:26:20Z">
+        <test-method status="PASS" signature="marketTest4()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="marketTest4" duration-ms="58377" started-at="2018-08-02T10:40:50Z" finished-at="2018-08-02T10:41:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marketTest4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="tearDown" is-config="true" duration-ms="1880" started-at="2018-08-02T09:26:20Z" finished-at="2018-08-02T09:26:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.com.MortyraSky.tests.MainTest@38082d64]" name="tearDown" is-config="true" duration-ms="1990" started-at="2018-08-02T10:41:48Z" finished-at="2018-08-02T10:41:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

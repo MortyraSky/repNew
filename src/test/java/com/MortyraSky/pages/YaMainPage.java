@@ -51,14 +51,16 @@ public class YaMainPage {
 
         for (int i = 1; i < 8; i++){
             int j = i-1;
-            //int time = 1;
+            int time = 1;
             WebElement element = driver.findElement(By.xpath("//div[@role='navigation']/a["+i+"]"));
             hrefElements.add(getAttributeHref(element));
             element.click();
 
-            //BaseTest.waitForElements(time);
+            BaseTest.waitForElements(time);
             currentURL.add(driver.getCurrentUrl());
             currentTitle.add(driver.getTitle());
+            System.out.println("Current url: " + currentURL.get(j) + ": href prev: " + hrefElements.get(j));
+            System.out.println("Current page title" + currentTitle.get(j) + ": prev title: " + pageTitle[i]);
             addresCompareRes= addressesMatched(hrefElements.get(j), currentURL.get(j));
             titleCompareRes = titleMatched(pageTitle[i], currentTitle.get(j));
 

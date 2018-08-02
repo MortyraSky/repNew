@@ -73,9 +73,12 @@ public class MarketComparePage {
         compareBtn.click();
         System.out.println(toCompare.size() + " : " + titleItemsInCompare.size());
         for (int i = 0;i < titleItemsInCompare.size(); i++)
-            for (int j = toCompare.size() - 1;j >= 0; j--)
+            for (int j = toCompare.size() - 1;j >= 0; j--){
                 if (titleItemsInCompare.get(i).getText().contains(toCompare.get(j)))
                     resCompare = true;
+                else System.out.println("If code not working: "+ titleItemsInCompare.get(i).getText() + ":" + toCompare.get(j));
+            }
+
 
         return resCompare;
     }
