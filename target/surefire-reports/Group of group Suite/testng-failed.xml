@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Group of group Suite]">
+  <test name="Group of group Test(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="include-test-one"/>
+        <include name="include-test-two"/>
+        <include name="include-test-three"/>
+        <include name="include-test-four"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.java.com.MortyraSky.tests.MainTest">
+        <methods>
+          <include name="marketTest1"/>
+          <include name="marketTest2"/>
+          <include name="marketTest4"/>
+          <include name="marketTest3"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

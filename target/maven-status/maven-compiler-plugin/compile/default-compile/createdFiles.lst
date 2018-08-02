@@ -1,0 +1,6 @@
+test\java\com\MortyraSky\pages\MarketPage.class
+test\java\com\MortyraSky\tests\BaseTest.class
+test\java\com\MortyraSky\pages\MarketComparePage.class
+test\java\com\MortyraSky\pages\YaMainPage.class
+test\java\com\MortyraSky\tests\MainTest.class
+test\java\com\MortyraSky\pages\MarketSortPage.class

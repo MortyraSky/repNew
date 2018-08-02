@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.486 sec <<< FAILURE!
+marketTest1(test.java.com.MortyraSky.tests.MainTest)  Time elapsed: 0.031 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at test.java.com.MortyraSky.pages.MarketPage.navigate(MarketPage.java:112)
+	at test.java.com.MortyraSky.tests.MainTest.marketTest1(MainTest.java:39)
+
+marketTest2(test.java.com.MortyraSky.tests.MainTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getAttribute(Unknown Source)
+	at test.java.com.MortyraSky.pages.MarketSortPage.getAttributeElement(MarketSortPage.java:73)
+	at test.java.com.MortyraSky.pages.MarketSortPage.sortByPrice(MarketSortPage.java:43)
+	at test.java.com.MortyraSky.tests.MainTest.marketTest2(MainTest.java:55)
+
+marketTest3(test.java.com.MortyraSky.tests.MainTest)  Time elapsed: 0.031 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:68)
+	at test.java.com.MortyraSky.pages.MarketComparePage.getItemsToCompare(MarketComparePage.java:56)
+	at test.java.com.MortyraSky.tests.MainTest.marketTest3(MainTest.java:68)
+
+marketTest4(test.java.com.MortyraSky.tests.MainTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at test.java.com.MortyraSky.pages.YaMainPage.goToYa(YaMainPage.java:39)
+	at test.java.com.MortyraSky.tests.MainTest.marketTest4(MainTest.java:82)
+
