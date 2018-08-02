@@ -69,6 +69,7 @@ public class MainTest extends BaseTest {
         boolean resCompareItems;
 
         marketComparePage.getItemsToCompare(FIRSTITEMINLIST, SECONDITEMINLIST);
+        //resCompareItems = marketComparePage.compareItems();
         resCompareItems = marketComparePage.compareItems();
         Assert.assertTrue(resCompareItems);
         marketComparePage.removeItemsFromCompare();
